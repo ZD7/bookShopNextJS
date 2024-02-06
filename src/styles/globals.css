@@ -1,0 +1,85 @@
+html,
+body {
+  margin: 0 auto;
+  width: 1440px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "MontserratBlack";
+  src: url("../fonts/Montserrat-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  border: 1px solid #E2E5E9;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CED3D7;
+  border-radius: 8px;
+}
+
+
